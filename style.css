@@ -1,0 +1,116 @@
+body{
+    background: #E6EFF3;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.for-business {
+    background: #225275;
+    background-clip: content-box;
+}
+
+.for-individuals {
+    background: #102544;
+    background-clip: content-box;
+}
+
+.for-professionals {
+    background: #1564DA;
+    background-clip: content-box;
+}
+
+.page-header{
+    color: #102544;
+    font-weight: 900;
+}
+
+.caption-header-large {
+    margin: 4rem 4rem 1rem 4rem;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.caption-medium {
+    font-size: 17px;
+    margin: 1rem 4rem 4rem 4rem;
+}
+
+.caption {
+    font-size: 14px;
+    margin: 2rem;
+}
+
+.caption-header-small {
+    color: #E6EFF3;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-medium {
+    position: absolute;
+    top: 72%;
+    left: 5.7%;
+    font-size: 17px;
+}
+
+.footer {
+    position: absolute;
+    top: 73%;
+    left: 0%;
+}
+
+/*background-design-elemets*/
+
+#left-gray {
+    top: 54vh;
+    left: 0vw;
+}
+
+#left-green {
+    top: 30vh;
+    left: 0vw;
+}
+
+#right-purple {
+    top: -7vh;
+    left: 75vw;
+}
+
+#right-gray-dot {
+    top: 58vh;
+    left: 93.5vw;
+}
+
+#right-gray-pill {
+    top: 45.5vh;
+    left: 96vw;
+}
+
+@media (max-width: 768px){
+    .for-business {
+        min-height: 37vh;
+    }
+    .for-individuals {
+        min-height: 30vh;
+    }
+    .for-professionals {
+        min-height: 25vh;
+    }
+    .footer {
+        margin: 2vh 0vw 5vh 9vw
+    }
+    .footer-medium {
+        margin: 5vh 0vw 5vh 10.5vw
+    }
+    #main {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 992px){
+    .page-header {
+        text-align: center;
+    }
+    #right-purple {
+        top: -10vh;
+    }
+}
